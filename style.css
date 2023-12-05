@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.hero{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.hero__IMG{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.prod__section{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.section_title{
+    font-size: 25px;
+}
+.product_container{
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#product-card{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(240, 240, 251);
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+    overflow: hidden;
+}
+
+.product-card-img-cont{
+     height: 60%;
+     width: 100%;
+}
+
+.product-card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-detail{
+    height: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-detail > .name{
+    font-size: 17px;
+}
+
+.atoc{
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product-detail > .price{
+    font-size: 25px;
+}
+
+.foot{
+    background-color: rgb(112, 73, 0);
+    color: white;
+    height: 200px;    
+}
+
+.foot-a{
+     display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.foot-list{
+    padding-bottom: 30px;
+}
+
+.foot-logo{
+    font-size: 30px;
+}
+
+.space input{
+    height: 70px;
+}
+
+.comment button{
+    background-color: rgb(87, 87, 252);
+    color: white;
+    height: 20px;
+    width: 70px;
+    border: none;
+    
+}
